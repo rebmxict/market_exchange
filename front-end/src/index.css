@@ -1,0 +1,974 @@
+.flexslider img {
+	width: 100%;
+}
+
+.header_cover {
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.menu_left_item {
+	float: left;
+}
+
+.menu_right_item {
+	float: right;
+}
+
+.collapse_active {
+	display: block;
+}
+
+.dashboard_container .dropdown-menu {
+	box-shadow: 0px 1px 1px 1px #eeeff6;
+    border-radius: 0;
+    border: 1px solid #eeeff6;
+    z-index: 1001;
+    font-size: 14px;
+    margin-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    padding: 0px!important;
+}
+
+.dashboard_container .dropdown-menu li:hover {
+	cursor: pointer;
+}
+
+.dashboard_container .dropdown-menu li {
+	border-bottom: 1px solid #eeeff6;
+	padding: 10px;
+}
+
+.dashboard_container .dropdown-menu li:last-child {
+	border-bottom: 0px solid gray;
+}
+
+.contentdiv article {
+	border-top: 5px solid #eeeff6;
+}
+
+.contentdiv article div {
+	width: 100%!important;
+    height: 520px!important;
+}
+
+.contentdiv article div iframe {
+	width: 100%!important;
+    height: 520px!important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cssmenu:after,
+#cssmenu>ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#cssmenu {
+    width: auto;
+    border-bottom: 3px solid #425670;
+    font-family: Raleway, sans-serif;
+    line-height: 1;
+}
+
+#cssmenu ul {
+    background: #ffffff;
+}
+
+#cssmenu>ul>li {
+    float: left;
+}
+
+#cssmenu.align-center>ul {
+    font-size: 0;
+    text-align: center;
+}
+
+#cssmenu.align-center>ul>li {
+    display: inline-block;
+    float: none;
+}
+
+#cssmenu.align-right>ul>li {
+    float: right;
+}
+
+#cssmenu.align-right>ul>li>a {
+    margin-right: 0;
+    margin-left: -4px;
+}
+
+#cssmenu>ul>li>a {
+    z-index: 2;
+    padding: 18px 25px 12px 25px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #444444;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    margin-right: -4px;
+}
+
+#cssmenu>ul>li.active>a,
+#cssmenu>ul>li:hover>a,
+#cssmenu>ul>li>a:hover {
+    color: #ffffff;
+}
+
+#cssmenu>ul>li>a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 120%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    content: "";
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: perspective(5px) rotateX(2deg);
+    -webkit-transform-origin: bottom;
+    -moz-transform: perspective(5px) rotateX(2deg);
+    -moz-transform-origin: bottom;
+    transform: perspective(5px) rotateX(2deg);
+    transform-origin: bottom;
+}
+
+#cssmenu>ul>li.active>a:after,
+#cssmenu>ul>li:hover>a:after,
+#cssmenu>ul>li>a:hover:after {
+    background: #425670;
+}
+
+.market_type {
+	float: right!important;
+    height: 30px!important;
+    margin-top: 8px;
+}
+
+.header_right .fa-angle-up {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 1px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.header_right .fa-angle-up:before {
+    display: none;
+}
+
+.header_right .fa-angle-down {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 1px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+.header_right .fa-angle-down:before {
+    display: none;
+}
+
+.inform_icon {
+    margin-left: 10px;
+}
+
+.bitcoinform {
+    padding: 0px!important;
+    background-color: transparent!important;
+    border-bottom: 2px solid #42556f!important;
+    border-radius: 0px!important;
+    height: 40px!important;
+    font-size: 20px!important;
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+
+.marketform {
+    margin-top: 10px;
+}
+
+.marketform div {
+    margin-top: 25px;
+}
+
+.marketcurtl {
+    font-weight: 600!important;
+    color: #8ba0a9;
+}
+
+.curtitle {
+    position: absolute;
+    right: 20px;
+    padding-top: 5px;
+}
+
+.marketbutton {
+    background-color: #ffffff;
+    padding: 15px 50px 15px 50px!important;
+    border-radius: 30px!important;
+    margin-top: 20px!important;
+    border: 2px solid #42556f!important;
+    color: #2f3e50;
+}
+
+.marketbutton:hover {
+    background-color: #425670;
+    color: white!important;
+}
+
+.orderbook {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.orderbook .rowdiv {
+    margin: 0 0 25px 0;
+    padding: 15px;
+    background: #FFF;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    width: 100%;
+    margin-right: -15px;
+}
+
+.card-header {
+    color: #010101;
+    letter-spacing: 0.9px;
+    font-weight: 600;
+    position: relative;
+    border-bottom-color: #dfe6f0;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    padding: 1.375rem 1.688rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0px!important;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeff6;
+}
+
+.caption {
+    caption-side: top;
+    letter-spacing: 0.3px;
+    font-size: 1.0rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #6c757d;
+    text-align: left;
+}
+
+.card-body:first-child {
+    border-right: 1px solid #dfe6f0;
+}
+
+.card-body-cover {
+    margin-top: 15px;
+}
+
+.card-body li {
+    list-style-type: none;
+}
+
+.card-body-cover .marketbutton {
+    padding: 15px 25px 15px 25px!important;
+}
+
+.walletpage {
+    margin-top: 10px;
+}
+
+.deposit-btn-sell {
+    color: #2f3e4f;
+}
+
+.deposit-btn-cell:hover {
+    cursor: pointer;
+}
+
+.deposit-btn-cell i {
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.deposit-btn-cell span {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.btcwallet td {
+    border: 0px solid gray;
+    color: #006f45;
+}
+
+.btcwallet td h5 {
+    /*font-size: 1rem!important;*/
+    font-weight: 100!important;
+    margin-bottom: 0px!important;
+}
+
+.btcwallet {
+    border-bottom: 1px solid lightgray;
+    margin-top: 20px!important;
+}
+
+.currency-cell span {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* Chat css */
+.chat_container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+/* Darker chat chat_container */
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+
+/* Clear floats */
+
+.chat_container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Style images */
+
+.chat_container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/* Style the right image */
+
+.chat_container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+/* Style time text */
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+
+/* Style time text */
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.user_list {
+    min-height: 500px;
+    max-height: 800px;
+    background-color: #2f3e4f;
+    box-shadow: 0px 0px 1px 1px lightgrey;
+}
+
+.msg_list {
+    min-height: 500px;
+    max-height: 800px;
+    border: 1px solid #ced5dc;
+    box-shadow: 0px 0px 1px 0px lightgrey;
+}
+
+.search {
+    margin-top: 15px;
+}
+
+.search input {
+    width: 100%;
+}
+
+.search i {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+.user_list ul {
+    max-height: 705px;
+    overflow: scroll;
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    display: grid;
+    margin-top: 20px;
+}
+
+.user_list ul li {
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.user_list ul li img {
+    float: left;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+.user_list ul li .about {
+    color: white;
+    padding-left: 8px;
+    float: left;
+    margin-top: 8px;
+}
+
+.inboxpage .rowdiv {
+    display: -webkit-inline-box;
+}
+
+.inputbox {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    border-top: 1px solid lightgray;
+    height: 60px;
+    display: inline-flex;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px!important;
+    border: 0px solid gray!important;
+    border-radius: 0px!important;
+    background-color: white!important;
+    font-size: 22px!important;
+}
+
+.inputbox button {
+    height: 60px;
+    border-radius: 0px;
+}
+
+.profilediv {
+    margin: 0 0 25px 0;
+    padding: 15px;
+    background: #FFF;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.profilepagediv {
+}
+
+.avatar_uploader {
+    max-height: 390px;
+    float: left;
+    display: none;
+}
+
+.avatar_cover1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.avatar_cover2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.avatar_cover1 .avatar_prev {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 151px;
+    float: left;
+}
+
+.avatar_cover2 .avatar_prev {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+    float: left;
+    position: relative;
+}
+
+.avatar_cover2 .avatar_prev h4 {
+    display: none;
+}
+
+.avatar_cover {
+    display: flex;
+}
+
+.col-width {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.avatar_cover1 .avatar_uploader {
+    display: block;
+}
+
+.avatar_cover1 .personal_info {
+    display: none;
+}
+
+.avatar_cover2 .avatar_uploader {
+    display: none;
+}
+
+.avatar_cover2 .personal_info {
+    display: block;
+}
+
+.personal_info {
+    float: left;
+    margin-left: 35px;
+}
+
+@media(max-width: 1390px) {
+    .col-width {
+        width: 100%;
+    }
+}
+
+.avatar_save {
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 42px;
+    background-color: #2f3e4f;
+}
+
+.avatar_cover1 .overlay {
+    display: none;
+}
+
+.avatar_cover1 .avatar_save {
+    display: block;
+}
+
+.avatar_cover2 .avatar_save {
+    display: none;
+}
+
+.avatar_cover2 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 50%;
+}
+
+.avatar_cover2 .overlay:hover {
+    cursor: pointer;
+}
+
+.avatar_cover2 .avatar_prev:hover .overlay {
+    opacity: 1;
+}
+
+.avatar_cover2 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.othercontact {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+
+.minimenu {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.minimenu a {
+    display: block;
+    font-size: 35px;
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+    color: #3c2692;
+    font-weight: 600;
+}
+
+.minimenu a:last-child {
+    border-bottom: 0px solid gray;
+}
+
+.minimenu div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.minimenu.active {
+    display: block;
+}
+
+.deposit_container {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+    background-color: #00000070;
+}
+
+.deposit_container.active {
+    display: flex;
+}
+
+.deposit_row {
+    position: relative;
+    margin: auto;
+    background-color: white;
+    min-height: 300px;
+    min-width: 300px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px white;
+    padding: 15px;
+    padding-top: 25px;
+    padding-right: 35px;
+}
+
+.deposit_close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-weight: 800;
+}
+
+.deposit_close:hover {
+    cursor: pointer;
+}
+
+.qrcode {
+    height: 300px;
+}
+
+.deposit_btc_addr {
+    display: grid;
+}
+
+.loading_container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 6000;
+    background-color: #0000006e;
+}
+
+.loading_container.active {
+    display: block;
+}
+
+.row.rowdiv {
+    overflow: hidden;
+}
+
+.orderbookcover {
+    overflow: scroll;
+}
+
+.closeorders {
+    position: absolute!important;
+    right: 0px;
+    top: 15px;
+}
+
+.dialog_container {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+    background-color: #00000070;
+}
+
+.dialog_container.active {
+    display: flex;
+}
+
+.dialog_row {
+    position: relative;
+    margin: auto;
+    background-color: white;
+    min-height: 300px;
+    min-width: 300px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px white;
+    padding: 15px;
+    padding-top: 25px;
+    padding-right: 35px;
+}
+
+.dialog_close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-weight: 800;
+}
+
+.dialog_close:hover {
+    cursor: pointer;
+}
+
+.dialog_content {
+    display: grid;
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.customized_btn {
+    padding: 10px 30px 10px!important;
+}
+
+.profileemail i {
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+    left: 10px;
+    color: green;
+}
+
+.profileinput {
+    background-color: white!important;
+    border-radius: 0px!important;
+    font-size: 18px!important;
+    margin-top: 25px;
+    pointer-events: none;
+    padding-left: 5px!important;
+    padding-right: 25px!important;
+    width: 150px;
+}
+
+.profileinput:first-child {
+    padding-right: 5px!important;
+}
+
+.profileinput.active {
+    border-bottom: 1px solid gray;
+    pointer-events: auto;
+}
+
+.profileedit {
+    font-size: 16px;
+    position: relative;
+    right: 22px;
+}
+
+.profileedit:hover {
+    cursor: pointer;
+}
+
+.orderbookcover tr td {
+    text-align: center;
+}
+
+.summarydiv {
+    display: flex;
+}
+
+.summarydiv i {
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.summaryinput {
+    background-color: white!important;
+    border-radius: 0px!important;
+    font-size: 18px!important;
+    margin-top: 15px;
+    pointer-events: none;
+    padding-left: 5px!important;
+    padding-right: 25px!important;
+    width: 100%;
+    height: 150px;
+}
+
+.summaryinput.active {
+    border-bottom: 1px solid gray;
+    pointer-events: auto;
+}
+
+.margin0h {
+    margin: 0px;
+}
+
+.withdrawinput {
+    background-color: white!important;
+    border-radius: 0px!important;
+    font-size: 18px!important;
+    pointer-events: none;
+    padding-left: 5px!important;
+    padding-right: 25px!important;
+    width: 100%;
+}
+
+.withdrawinput.active {
+    border-bottom: 1px solid gray;
+    pointer-events: auto;
+}
+
+.editdivcover {
+    position: relative;
+}
+
+.editdivcover input {
+    font-weight: normal!important;
+    background-color: white!important;
+    border-radius: 0px!important;
+    font-size: 18px!important;
+    pointer-events: none;
+    padding-left: 5px!important;
+    padding-right: 25px!important;
+    width: 100%;
+}
+
+.editdivcover input.active {
+    border-bottom: 1px solid gray;
+    pointer-events: auto;
+}
+
+.editdivcover input.bold {
+    font-weight: bold!important;
+}
+
+.editdivcover i {
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.editdivcover i:hover {
+    cursor: pointer;
+}
+
+.marT20 {
+    display: grid;
+}
+
+.marT20 p {
+    width: 100%;
+    font-weight: bold;
+}

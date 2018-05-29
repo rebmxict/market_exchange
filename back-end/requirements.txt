@@ -1,0 +1,14 @@
+pycryptodome
+flask
+python-dotenv
+requests
+flask-oauthlib
+flask-mysql
+flask_restful
+configargparse
+flask_sqlalchemy
+flask_cors
+flask_mail
+alembic
+simplejson
+bitcoinlib
